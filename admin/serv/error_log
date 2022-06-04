@@ -1,0 +1,9 @@
+[10-Nov-2019 06:27:46 UTC] PHP Notice:  Undefined index: s_title in /home1/quadwo/public_html/admin/serv/manage.php on line 407
+[10-Nov-2019 06:27:47 UTC] PHP Notice:  Undefined index: s_author in /home1/quadwo/public_html/admin/serv/manage.php on line 408
+[10-Nov-2019 06:27:47 UTC] PHP Notice:  Undefined index: s_date in /home1/quadwo/public_html/admin/serv/manage.php on line 409
+[10-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: s_title in /home1/quadwo/public_html/admin/serv/manage.php on line 407
+[10-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: s_author in /home1/quadwo/public_html/admin/serv/manage.php on line 408
+[10-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: s_date in /home1/quadwo/public_html/admin/serv/manage.php on line 409
+[10-Nov-2019 06:38:13 UTC] PHP Notice:  Undefined index: s_title in /home1/quadwo/public_html/admin/serv/manage.php on line 407
+[10-Nov-2019 06:38:13 UTC] PHP Notice:  Undefined index: s_author in /home1/quadwo/public_html/admin/serv/manage.php on line 408
+[10-Nov-2019 06:38:13 UTC] PHP Notice:  Undefined index: s_date in /home1/quadwo/public_html/admin/serv/manage.php on line 409

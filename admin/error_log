@@ -1,0 +1,7 @@
+[08-Nov-2019 22:11:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/quadwo/public_html/admin/serv/manage.php on line 3
+[08-Nov-2019 22:12:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/quadwo/public_html/admin/serv/manage.php on line 3
+[09-Nov-2019 07:00:13 UTC] PHP Notice:  Undefined variable: admin in /home1/quadwo/public_html/admin/index_page.php on line 39
+[09-Nov-2019 07:00:13 UTC] PHP Notice:  Undefined variable: admin in /home1/quadwo/public_html/admin/index_page.php on line 115
+[09-Nov-2019 07:00:13 UTC] PHP Notice:  Undefined variable: admin in /home1/quadwo/public_html/admin/index_page.php on line 115
+[09-Nov-2019 07:00:13 UTC] PHP Notice:  Undefined variable: admin in /home1/quadwo/public_html/admin/index_page.php on line 135
+[09-Nov-2019 07:00:13 UTC] PHP Notice:  Undefined variable: admin in /home1/quadwo/public_html/admin/index_page.php on line 135
