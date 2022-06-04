@@ -1,5 +1,3 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','quadwo_pensa') or die("Database Connection lost");
-
-
+$conn = mysqli_connect('localhost', 'root', '', 'shilo') or die('Database Connection lost');
