@@ -7,7 +7,7 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-                <h2 class="mb-0 site-logo"><a href="index.php"><img style="width: 150px; height:30px;" src="images/logo-1.png"></a></h2>
+                <h2 class="mb-0 site-logo"><a href="index.php"><img style="width: 150px; height:150px;" src="images/logo.png"></a></h2>
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">

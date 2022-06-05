@@ -3,7 +3,7 @@
   
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>About - PENSA</title>
+    <title>About - Shilo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -43,7 +43,7 @@
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
     
-    <?php include "serv/header.php"?>
+    <?php include 'serv/header.php'; ?>
   
     <div style="height: 113px;"></div>
   
@@ -67,8 +67,7 @@
         <div class="row align-items-center">
           <div style="text-align: left">
             <h2 class="h2 mb-3"></h2>
-            <p class="h5 mb-3">PENSA UCC is a campus based ministry of the Church of Pentecost under the church's Youth Ministry. It is located at the University Of Cape Coast (UCC)<br>
-            The organization seeks to possess the university and its surrounding communities for Christ and also to impact the communities.</p>
+            <p class="h5 mb-3">The Shiloh Maranatha Prayer Camp was founded by Prophetess Gifty Anane and her wonderful and supportive husband Evangelist Richard Anane over 20 years ago in response to the calling and direction of God upon their lives. IN spite of her lack of education, her passion for God was enormous. Gifty’s simple faith in God and obedient to Him resulted in God using her as a corner stone. Responding to the vision and revelations of God upon their lives, Gifty started work in Accra sakumono estate in a good Samaritan’s home. There, the Lord spoke and asked her to go and acquire a land in the Central part of Ghana (Gomoa.) Gifty and her husband Richard channeled their earnings with the help of the church and some few individuals helped to acquire acres of unwanted land and several years later, the vision of God became a reality as they established a prayer camp at Gomoa Dawurampong-Nduam with free accommodation facilities for all who come to seek and wait upon the Lord. </p>
             <p class="mb-4"></p>
           </div>
         </div> 
@@ -81,10 +80,31 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-5 mb-5 mb-lg-0 order-1">
-            <h2 class="mb-3 text-uppercase">Traveling Secretary <strong class="text-black font-weight-bold"></strong></h2>
+            <h2 class="mb-3 text-uppercase">Founder <strong class="text-black font-weight-bold"></strong></h2>
             <p class="lead">
-              <b>Name:  </b><span>Pastor Frank Akonnor</span><br>
-              <b>Email: </b><span>frankakonnor27@yahoo.com</span><br>
+              <b>Name:  </b><span>Prophetess Gifty Anane </span><br>
+              <!-- <b>Email: </b><span>frankakonnor27@yahoo.com</span><br> -->
+              <b>Phone: </b><span>(233) 20 8530987</span>
+            </p>
+            <p class="mb-4"></p>
+          </div>
+          <div class="col-md-8 col-lg-4 mr-auto order-2">
+            <img src="images/ceo.png" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 col-lg-5 mb-5 mb-lg-0 order-1">
+            <h2 class="mb-3 text-uppercase">Vice Chairman <strong class="text-black font-weight-bold"></strong></h2>
+            <p class="lead">
+              <b>Name:  </b><span>Rev. Richard Anane</span><br>
+              <!-- <b>Email: </b><span>frankakonnor27@yahoo.com</span><br> -->
               <b>Phone: </b><span>(233) 24 426 0607</span>
             </p>
             <p class="mb-4"></p>
@@ -195,7 +215,7 @@
 -->
     
     
-    <?php include "serv/footer.php"?>
+    <?php include 'serv/footer.php'; ?>
   </div>
 
   <script src="js/jquery-3.3.1.min.js" type="3aa9fe3861f51a6d3a44c1c5-text/javascript"></script>
