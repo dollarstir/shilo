@@ -105,7 +105,7 @@
             <p class="lead">
               <b>Name:  </b><span>Rev. Richard Anane</span><br>
               <!-- <b>Email: </b><span>frankakonnor27@yahoo.com</span><br> -->
-              <b>Phone: </b><span>(233) 0244136183</span>
+              <b>Phone: </b><span>(233) 244136183</span>
             </p>
             <p class="mb-4"></p>
           </div>

@@ -98,18 +98,20 @@ include 'serv/cmd.php';
 
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
-              <h3 style="margin-top: 20px"><b>VICE PRESIDENT</b></h3>
-              <img style="margin-top: 5px" src="images/vice_pres.jpg" alt="Avatar">
-              <h4 style="margin-top: 30px"><b>Eld. Issah Nwenbe Jeln</b></h4>
-              <p>B.Ed. Science</p>
-              <p><span>024 192 0827</span> | <span>issahnwenbe@gmail.com</span></p>
+              <h3 style="margin-top: 20px"><b>VICE CHAIRMAN</b></h3>
+              <img style="margin-top: 5px" src="images/co.png" alt="Avatar">
+              <h4 style="margin-top: 30px"><b>Rev. Richard Anane</b></h4>
+              <!-- <p>B.Ed. Science</p> -->
+              <p><span>(233) 244136183</span> 
+               <!-- <span>issahnwenbe@gmail.com</span> -->
+              </p>
           </div>
         </div>
 
       </div>
 
 
-      <div>
+      <!-- <div>
 
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
@@ -236,7 +238,7 @@ include 'serv/cmd.php';
           </div>
         </div>
 
-      </div>
+      </div> -->
     </div>
 
       <!-- Belief of the church_ end-->
@@ -246,7 +248,7 @@ include 'serv/cmd.php';
       <div class="container">
         <div class=" tableRow">
           <div>
-            <table id="leadersTable">
+            <!-- <table id="leadersTable">
               <thead>
 
                 <tr>
@@ -270,7 +272,7 @@ include 'serv/cmd.php';
                 </tr>
 
               </tfoot>
-            </table>
+            </table> -->
           </div>
         </div>
       </div>
