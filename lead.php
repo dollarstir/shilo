@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-include "serv/cmd.php";
+include 'serv/cmd.php';
 
 ?>
 
@@ -8,7 +8,7 @@ include "serv/cmd.php";
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Leaders - PENSA</title>
+    <title>Leaders - Shilo Maranatha Prayer Camp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -51,7 +51,7 @@ include "serv/cmd.php";
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
     
-    <?php include "serv/header.php"?>
+    <?php include 'serv/header.php'; ?>
     
   
     <div style="height: 113px;"></div>
@@ -81,11 +81,13 @@ include "serv/cmd.php";
 
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
-              <h3 style="margin-top: 20px"><b>PRESIDENT</b></h3>
-              <img style="margin-top: 5px" src="images/president1.jpg" alt="Avatar">
-              <h4 style="margin-top: 30px"><b>Dcn. Emmanuel Asare Bediako</b></h4>
-              <p>B.Sc. Doctor of Optometry</p>
-              <p><span>026 838 5842</span> | <span>emmaasare82@gmail.com</span></p>
+              <h3 style="margin-top: 20px"><b>FOUNDER</b></h3>
+              <img style="margin-top: 5px" src="images/ceo.png" alt="Avatar">
+              <h4 style="margin-top: 30px"><b>Prophetess Gifty Anane</b></h4>
+              <!-- <p>B.Sc. Doctor of Optometry</p> -->
+              <p><span>(233) 243126998</span> 
+               <!-- <span>emmaasare82@gmail.com</span> -->
+              </p>
           </div>
         </div>
 
@@ -256,7 +258,7 @@ include "serv/cmd.php";
               </thead>
               <tbody>
 
-                <?php lead()?>
+                <?php lead(); ?>
 
               </tbody>
               <tfoot>
@@ -274,7 +276,7 @@ include "serv/cmd.php";
       </div>
     </div>
 
-    <?php include "serv/footer.php"?>
+    <?php include 'serv/footer.php'; ?>
   </div>
 
   <script src="js/jquery-3.3.1.min.js" type="6978acaec81577dd0f04d893-text/javascript"></script>
