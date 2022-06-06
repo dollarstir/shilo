@@ -1,17 +1,17 @@
 <?php
 
-$conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+$conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
 // Functions For Tables
 
-function testi() {
+function testi()
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
-
-    $sql = "SELECT * FROM testimonies ORDER BY t_id DESC";
+    $sql = 'SELECT * FROM testimonies ORDER BY t_id DESC';
     $query = mysqli_query($conn, $sql);
 
-    while($results = mysqli_fetch_array($query)){
+    while ($results = mysqli_fetch_array($query)) {
         echo '
             <tr>
                 <td>'.$results['t_author'].'</td>
@@ -23,17 +23,17 @@ function testi() {
                 </td>
             </tr> 
         ';
-    };
-    
+    }
 }
 
-function serms() {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function serms()
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-    $sql = "SELECT * FROM sermons ORDER BY s_id DESC";
+    $sql = 'SELECT * FROM sermons ORDER BY s_id DESC';
     $query = mysqli_query($conn, $sql);
 
-    while($results = mysqli_fetch_array($query)){
+    while ($results = mysqli_fetch_array($query)) {
         echo '
             <tr>
                 <td>'.$results['s_title'].'</td>
@@ -50,13 +50,14 @@ function serms() {
     }
 }
 
-function evens() {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function evens()
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-    $sql = "SELECT * FROM events ORDER BY e_id DESC";
+    $sql = 'SELECT * FROM events ORDER BY e_id DESC';
     $query = mysqli_query($conn, $sql);
 
-    while($results = mysqli_fetch_array($query)){
+    while ($results = mysqli_fetch_array($query)) {
         echo '
             <tr>
                 <td>'.$results['e_title'].'</td>
@@ -74,13 +75,14 @@ function evens() {
     }
 }
 
-function comms() {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function comms()
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-    $sql = "SELECT * FROM comments ORDER BY c_id DESC";
+    $sql = 'SELECT * FROM comments ORDER BY c_id DESC';
     $query = mysqli_query($conn, $sql);
 
-    while($results = mysqli_fetch_array($query)){
+    while ($results = mysqli_fetch_array($query)) {
         echo '
             <tr>
                 <td>'.$results['c_date'].'</td>
@@ -93,38 +95,37 @@ function comms() {
     }
 }
 
-function num($opt) {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function num($opt)
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-    if($opt == "t") {
-        $sql = "SELECT t_id FROM testimonies";
-    }elseif($opt == "s")  {
-        $sql = "SELECT s_id FROM sermons";
-    }elseif($opt == "e")  {
-        $sql = "SELECT e_id FROM events";
-    }else{
-        $sql = "SELECT c_id FROM comments";
+    if ($opt == 't') {
+        $sql = 'SELECT t_id FROM testimonies';
+    } elseif ($opt == 's') {
+        $sql = 'SELECT s_id FROM sermons';
+    } elseif ($opt == 'e') {
+        $sql = 'SELECT e_id FROM events';
+    } else {
+        $sql = 'SELECT c_id FROM comments';
     }
 
     $query = mysqli_query($conn, $sql);
     $count = 0;
 
-    while($log = mysqli_fetch_array($query)) {
+    while ($log = mysqli_fetch_array($query)) {
         $count = $count + 1;
-    };
+    }
 
     echo $count;
 }
 
-
-
-function testiUpForm($id) {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function testiUpForm($id)
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
     $sql = "SELECT * FROM testimonies WHERE t_id=$id";
     $query = mysqli_query($conn, $sql);
     $testi = mysqli_fetch_array($query);
-
 
     echo '
         <div class="card-body card" style="background: rgb(224, 224, 224);">
@@ -163,13 +164,13 @@ function testiUpForm($id) {
     ';
 }
 
-function sermonUpForm($id) {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function sermonUpForm($id)
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
     $sql = "SELECT * FROM sermons WHERE s_id=$id";
     $query = mysqli_query($conn, $sql);
     $serm = mysqli_fetch_array($query);
-
 
     echo '
         <div class="card-body card" style="background: rgb(224, 224, 224);">
@@ -193,7 +194,7 @@ function sermonUpForm($id) {
             </div>
         ';
 
-    if($serm['s_type'] == 'video') {
+    if ($serm['s_type'] == 'video') {
         echo '
             <div class="position-relative form-group">
                 <label for="exampleFile" class="">Link To Video</label>
@@ -210,7 +211,6 @@ function sermonUpForm($id) {
                 </div>
             </div>
         ';
-
     } else {
         echo '
             <div class="position-relative form-group">
@@ -229,18 +229,18 @@ function sermonUpForm($id) {
                 </div>
             </div>
         ';
-    } 
+    }
     echo '
         <button class="mt-1 btn btn-primary s_submitUp" value="'.$id.'">Submit</button>
         </form>
         </div>
         <script src="js/form.js"></script>
     ';
-
 }
 
-function eventsUpForm($id) {
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+function eventsUpForm($id)
+{
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
     $sql = "SELECT * FROM events WHERE e_id=$id";
     $query = mysqli_query($conn, $sql);
@@ -295,185 +295,165 @@ function eventsUpForm($id) {
     ';
 }
 
-
 // Functions for Form //
-if(isset($_GET['func'])){
-    $conn = mysqli_connect("localhost", "quadwo", "Derrick2019", "quadwo_pensa");
+if (isset($_GET['func'])) {
+    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
 
-
-    if($_GET['func'] == 'testimony'){
+    if ($_GET['func'] == 'testimony') {
         $t_author = mysqli_real_escape_string($conn, $_POST['t_author']);
         $t_msg = mysqli_real_escape_string($conn, $_POST['t_msg']);
-    
-        if(empty($t_author) && empty($t_msg)) {
-            echo "Both fields are empty";
-        }elseif(empty($t_author)) {
-            echo "Please provided the name for the author of the testimony";
-        }elseif(empty($t_msg)) {
-            echo "Please fill the testimony field";
-        }else{
 
-            if(!isset($_FILES['t_pic'])) {
-                echo "Empty";
-    
-            }else{
+        if (empty($t_author) && empty($t_msg)) {
+            echo 'Both fields are empty';
+        } elseif (empty($t_author)) {
+            echo 'Please provided the name for the author of the testimony';
+        } elseif (empty($t_msg)) {
+            echo 'Please fill the testimony field';
+        } else {
+            if (!isset($_FILES['t_pic'])) {
+                echo 'Empty';
+            } else {
                 $t_pict = $_FILES['t_pic'];
 
-                $accepted = array("jpeg","jpg","png");
-                $t_picType = explode("/", $t_pict['type']);
+                $accepted = ['jpeg', 'jpg', 'png'];
+                $t_picType = explode('/', $t_pict['type']);
                 $t_picType = end($t_picType);
 
-                if(!in_array($t_picType, $accepted)){
-                    echo "Invalid picture type";
-                }else{
+                if (!in_array($t_picType, $accepted)) {
+                    echo 'Invalid picture type';
+                } else {
                     $t_pic = $t_pict['name'];
-            
+
                     $sql = "INSERT INTO testimonies(t_author, t_msg, t_pic) VALUES ('$t_author', '$t_msg', '$t_pic')";
-                    
-                    if(mysqli_query($conn, $sql)) {
+
+                    if (mysqli_query($conn, $sql)) {
                         $newLoc = "../../assets/img/testimonies/$t_pic";
                         move_uploaded_file($t_pict['tmp_name'], $newLoc);
-                        echo "success";
-                    }else{
-                        echo "Opps an error occured during database update!";
+                        echo 'success';
+                    } else {
+                        echo 'Opps an error occured during database update!';
                     }
-    
                 }
-    
-            }  
+            }
         }
     }
 
-    if($_GET['func'] == 'testimonyUp'){
+    if ($_GET['func'] == 'testimonyUp') {
         $t_author = mysqli_real_escape_string($conn, $_POST['t_author']);
         $t_msg = mysqli_real_escape_string($conn, $_POST['t_msg']);
-        
+
         $t_id = $_GET['func2'];
 
         $def = "SELECT * FROM testimonies WHERE t_id = $t_id";
         $def = mysqli_query($conn, $def);
         $def = mysqli_fetch_array($def);
 
-        if(isset($_FILES['t_pic'])) {
+        if (isset($_FILES['t_pic'])) {
             $t_pic = $_FILES['t_pic'];
             $t_picName = $t_pic['name'];
 
-            $accepted = array("jpeg","jpg","png");
-            $t_picType = explode("/", $t_pic['type']);
+            $accepted = ['jpeg', 'jpg', 'png'];
+            $t_picType = explode('/', $t_pic['type']);
             $t_picType = end($t_picType);
 
-            if(!in_array($t_picType, $accepted)){
-                echo "Invalid picture type";
-            }else{
+            if (!in_array($t_picType, $accepted)) {
+                echo 'Invalid picture type';
+            } else {
                 $sql = "UPDATE testimonies SET t_author = '$t_author', t_msg = '$t_msg', t_pic = '$t_picName' WHERE t_id = $t_id";
-                    
-                if(mysqli_query($conn, $sql)) {
+
+                if (mysqli_query($conn, $sql)) {
                     $newLoc = "../../assets/img/testimonies/$t_picName";
                     move_uploaded_file($t_pic['tmp_name'], $newLoc);
-                    echo "success";
-                }else{
-                    echo "Opps an error occured during database update!";
+                    echo 'success';
+                } else {
+                    echo 'Opps an error occured during database update!';
                 }
             }
-        }else{
+        } else {
             $t_picName = $def['t_pic'];
             $sql = "UPDATE testimonies SET t_author = '$t_author', t_msg = '$t_msg', t_pic = '$t_picName' WHERE t_id = $t_id";
 
-            if(mysqli_query($conn, $sql)) {
-                echo "success";
-
-            }else{
-                echo "Opps an error occured during database update!";
-
+            if (mysqli_query($conn, $sql)) {
+                echo 'success';
+            } else {
+                echo 'Opps an error occured during database update!';
             }
         }
     }
 
-    if($_GET['func'] == "testimonyDel") {
+    if ($_GET['func'] == 'testimonyDel') {
         $id = $_GET['func2'];
-        $sql="DELETE FROM testimonies WHERE t_id=$id";
+        $sql = "DELETE FROM testimonies WHERE t_id=$id";
 
-        if(mysqli_query($conn, $sql)) {
-            echo "success";
-        }else{
-            echo "Error Occured";
+        if (mysqli_query($conn, $sql)) {
+            echo 'success';
+        } else {
+            echo 'Error Occured';
         }
     }
-    
 
-
-
-    if($_GET['func'] == "sermons") {
+    if ($_GET['func'] == 'sermons') {
         $s_title = mysqli_real_escape_string($conn, $_POST['s_title']);
         $s_author = mysqli_real_escape_string($conn, $_POST['s_author']);
         $s_date = mysqli_real_escape_string($conn, $_POST['s_date']);
 
-        if(empty($s_title) && empty($s_author) && empty($s_date)) {
-            echo "All fields are all empty";
-            
-        }elseif(empty($s_title) || empty($s_author) || empty($s_date)) {
-            if(empty($s_title)) {
-                echo "Title column is empty";
-            }elseif(empty($s_author)) {
-                echo "Authors field is empty";
-            }else{
-                echo "Date field is empty";
+        if (empty($s_title) && empty($s_author) && empty($s_date)) {
+            echo 'All fields are all empty';
+        } elseif (empty($s_title) || empty($s_author) || empty($s_date)) {
+            if (empty($s_title)) {
+                echo 'Title column is empty';
+            } elseif (empty($s_author)) {
+                echo 'Authors field is empty';
+            } else {
+                echo 'Date field is empty';
             }
-       
-        }elseif(!isset($_POST['s_type'])){
-            echo "Please select media format";
-    
-        }else{
-            
+        } elseif (!isset($_POST['s_type'])) {
+            echo 'Please select media format';
+        } else {
             $s_type = mysqli_real_escape_string($conn, $_POST['s_type']);
-    
-            if($s_type == 'video') {
+
+            if ($s_type == 'video') {
                 $s_sermonAlt = $_FILES['s_sermonAlt'];
 
                 $s_sermonType = $s_sermonAlt['type'];
-                $s_sermonExt = explode("/",$s_sermonType);
+                $s_sermonExt = explode('/', $s_sermonType);
                 $s_sermonExt = end($s_sermonExt);
-                $accepted = array("png", "jpeg", "jpg");
+                $accepted = ['png', 'jpeg', 'jpg'];
 
                 $s_sermonP = $s_sermonAlt['name'];
                 $s_sermonName = $_POST['s_sermon'];
-
             } else {
                 $s_sermonAlt = $_FILES['s_sermonAlt'];
 
                 $s_sermonType = $s_sermonAlt['type'];
-                $s_sermonExt = explode("/", $s_sermonType);
+                $s_sermonExt = explode('/', $s_sermonType);
                 $s_sermonExt = end($s_sermonExt);
-                $accepted = array("mp3", "m4a", "wav", "mp4", "mov", "mkv", 'mpeg');
-                $s_sermonP = "N/A";
+                $accepted = ['mp3', 'm4a', 'wav', 'mp4', 'mov', 'mkv', 'mpeg'];
+                $s_sermonP = 'N/A';
                 $s_sermonName = $s_sermonAlt['name'];
             }
 
-    
-            if(in_array(strtolower($s_sermonExt), $accepted)) {
+            if (in_array(strtolower($s_sermonExt), $accepted)) {
                 $sql = "INSERT INTO sermons (s_title, s_pic, s_sermon, s_author, s_type, s_date) VALUES ('$s_title', '$s_sermonP', '$s_sermonName', '$s_author', '$s_type', '$s_date')";
-                
-                if($s_type == 'video') {
+
+                if ($s_type == 'video') {
                     $s_sermonDist = "../../assets/img/sermons/$s_sermonP";
                 } else {
                     $s_sermonDist = "../../assets/audio/sermons/$s_sermonName";
                 }
-                
-                if(mysqli_query($conn, $sql) && move_uploaded_file($s_sermonAlt['tmp_name'], $s_sermonDist)) {
-                    echo "success";
 
-                }else{
-                    echo "Failed to access the database";
+                if (mysqli_query($conn, $sql) && move_uploaded_file($s_sermonAlt['tmp_name'], $s_sermonDist)) {
+                    echo 'success';
+                } else {
+                    echo 'Failed to access the database';
                 }
-    
-            }else{
-                echo "Media format not supported";
+            } else {
+                echo 'Media format not supported';
             }
         }
-        
     }
 
-    if($_GET['func'] == "sermonUp") {
+    if ($_GET['func'] == 'sermonUp') {
         $s_title = mysqli_real_escape_string($conn, $_POST['s_title']);
         $s_author = mysqli_real_escape_string($conn, $_POST['s_author']);
         $s_date = mysqli_real_escape_string($conn, $_POST['s_date']);
@@ -482,110 +462,102 @@ if(isset($_GET['func'])){
         $def = "SELECT * FROM sermons WHERE s_id=$id";
         $def = mysqli_query($conn, $def);
         $sermon = mysqli_fetch_array($def);
-       
-        if(!isset($_FILES['s_sermon'])){
-            $s_sermon = $sermon['s_sermon'];
-            
-            if(isset($_POST['s_type'])) {
-                $s_type = mysqli_real_escape_string($conn, $_POST['s_type']);
-                
-            }else{
-                $s_type = $sermon['s_type'];
 
+        if (!isset($_FILES['s_sermon'])) {
+            $s_sermon = $sermon['s_sermon'];
+
+            if (isset($_POST['s_type'])) {
+                $s_type = mysqli_real_escape_string($conn, $_POST['s_type']);
+            } else {
+                $s_type = $sermon['s_type'];
             }
 
             $sql = "UPDATE sermons SET s_title='$s_title', s_author='$s_author', s_date='$s_date', s_type='$s_type', s_sermon='$s_sermon' WHERE s_id=$id";
             $query = mysqli_query($conn, $sql);
 
-            if($query){
+            if ($query) {
                 echo 'success';
-            }else{
+            } else {
                 echo 'Error occured';
-            }   
-        }else{
-            if(!isset($_POST['s_type'])) {
+            }
+        } else {
+            if (!isset($_POST['s_type'])) {
                 echo 'Please select the type of sermon';
-            }else{
+            } else {
                 $s_sermon = $_FILES['s_sermon'];
                 $s_type = mysqli_real_escape_string($conn, $_POST['s_type']);
 
                 $s_sermonType = $s_sermon['type'];
-                $s_sermonExt = explode("/",$s_sermonType);
+                $s_sermonExt = explode('/', $s_sermonType);
                 $s_sermonExt = end($s_sermonExt);
-                $accepted = array("mp3", "m4a", "wav", "mp4", "mov", "mkv");
-    
-        
-                if(in_array(strtolower($s_sermonExt), $accepted)) {
+                $accepted = ['mp3', 'm4a', 'wav', 'mp4', 'mov', 'mkv'];
+
+                if (in_array(strtolower($s_sermonExt), $accepted)) {
                     $s_sermonName = $s_sermon['name'];
                     $s_sermonDist = "../../assets/$s_type/sermons/$s_sermonName";
 
                     $sql = "UPDATE sermons SET s_title='$s_title', s_author='$s_author', s_date='$s_date', s_sermon='$s_sermonName' WHERE s_id=$id";
 
-                    if(mysqli_query($conn, $sql) && move_uploaded_file($s_sermon['tmp_name'], $s_sermonDist)) {
-                        echo "success";
-            
-                    }else{
-                        echo "Failed to access the database";
+                    if (mysqli_query($conn, $sql) && move_uploaded_file($s_sermon['tmp_name'], $s_sermonDist)) {
+                        echo 'success';
+                    } else {
+                        echo 'Failed to access the database';
                     }
-                }else{
-                    echo "Media format not supported";
+                } else {
+                    echo 'Media format not supported';
                 }
             }
         }
     }
 
-    if($_GET['func'] == "sermonDel") {
+    if ($_GET['func'] == 'sermonDel') {
         $id = $_GET['func2'];
-        $sql="DELETE FROM sermons WHERE s_id=$id";
+        $sql = "DELETE FROM sermons WHERE s_id=$id";
 
-        if(mysqli_query($conn, $sql)) {
-            echo "success";
-        }else{
-            echo "Error Occured";
+        if (mysqli_query($conn, $sql)) {
+            echo 'success';
+        } else {
+            echo 'Error Occured';
         }
     }
 
-  
-
-
-    if($_GET['func'] == "events") {
+    if ($_GET['func'] == 'events') {
         $e_title = mysqli_real_escape_string($conn, $_POST['e_title']);
         $e_msg = mysqli_real_escape_string($conn, $_POST['e_msg']);
         $e_date = mysqli_real_escape_string($conn, $_POST['e_date']);
         $e_loc = mysqli_real_escape_string($conn, $_POST['e_loc']);
 
-        if(empty($e_title || $e_msg || $e_date || $e_loc)) {
-            echo "All Fields are Empty";
-        }elseif(empty($e_title && $e_msg && $e_date && $e_loc)) {
-            if(empty($e_title)){
-                echo "No title given for the event";
-            }elseif(empty($e_msg)){
-                echo "You should give a small description";
-            }elseif(empty($e_date)){
-                echo "When did the event take place?";
-            }else{
-                echo "Where did it take place?";
+        if (empty($e_title || $e_msg || $e_date || $e_loc)) {
+            echo 'All Fields are Empty';
+        } elseif (empty($e_title && $e_msg && $e_date && $e_loc)) {
+            if (empty($e_title)) {
+                echo 'No title given for the event';
+            } elseif (empty($e_msg)) {
+                echo 'You should give a small description';
+            } elseif (empty($e_date)) {
+                echo 'When did the event take place?';
+            } else {
+                echo 'Where did it take place?';
             }
-        }elseif(!isset($_FILES['e_pic']) || !isset($_POST['e_vid'])){
-            if(!isset($_FILES['e_pic'])){
-                echo "Please select a picture";
-            }else{
-                echo "Please enter video link";
+        } elseif (!isset($_FILES['e_pic']) || !isset($_POST['e_vid'])) {
+            if (!isset($_FILES['e_pic'])) {
+                echo 'Please select a picture';
+            } else {
+                echo 'Please enter video link';
             }
-            
-        }else{
+        } else {
             $e_pic = $_FILES['e_pic'];
             $e_vid = $_POST['e_vid'];
 
             $e_picType = $e_pic['type'];
 
-            $e_picExt = explode("/", $e_picType);
+            $e_picExt = explode('/', $e_picType);
 
             $e_picExt = end($e_picExt);
 
-            $p_accepted = array("png", "jpeg", "jpg");
+            $p_accepted = ['png', 'jpeg', 'jpg'];
 
-            if(in_array($e_picExt, $p_accepted)) {
+            if (in_array($e_picExt, $p_accepted)) {
                 $e_picName = $e_pic['name'];
 
                 $sql = "INSERT INTO events (e_title, e_msg, e_date, e_pic, e_vid, e_loc) VALUES ('$e_title', '$e_msg', '$e_date', '$e_picName', '$e_vid', '$e_loc')";
@@ -595,18 +567,16 @@ if(isset($_GET['func'])){
                     $e_picDist = "../../assets/img/events/$e_picName";
                     move_uploaded_file($e_pic['tmp_name'], $e_picDist);
                     echo 'success';
-                }else{
-                    echo "Opps there was an error...Please try again";
+                } else {
+                    echo 'Opps there was an error...Please try again';
                 }
-
-            }else{
-                echo "The picture not supported";
-
+            } else {
+                echo 'The picture not supported';
             }
         }
-    } 
+    }
 
-    if($_GET['func'] == "eventUp") {
+    if ($_GET['func'] == 'eventUp') {
         $e_title = mysqli_real_escape_string($conn, $_POST['e_title']);
         $e_msg = mysqli_real_escape_string($conn, $_POST['e_msg']);
         $e_date = mysqli_real_escape_string($conn, $_POST['e_date']);
@@ -620,101 +590,96 @@ if(isset($_GET['func'])){
         $e_pic = $def['e_pic'];
         $e_vid = $_POST['e_vid'];
 
-        $testp = "default";
-        $testv = "default";
-
+        $testp = 'default';
+        $testv = 'default';
 
         // ................................................
 
-        if(isset($_FILES['e_pic'])) {
+        if (isset($_FILES['e_pic'])) {
             $e_picType = $_FILES['e_pic']['type'];
-            $e_picExt = explode("/", $e_picType);
+            $e_picExt = explode('/', $e_picType);
             $e_picExt = end($e_picExt);
-            $p_accepted = array("png", "jpeg", "jpg");
-    
-            if(in_array($e_picExt, $p_accepted)) {
+            $p_accepted = ['png', 'jpeg', 'jpg'];
+
+            if (in_array($e_picExt, $p_accepted)) {
                 $e_pic = $_FILES['e_pic']['name'];
                 $e_picDist = "../../assets/img/events/$e_pic";
-                if(move_uploaded_file($_FILES['e_pic']['tmp_name'], $e_picDist)) {
-                    $testp = "changed";
-                }else{
-                    $testp = "Error occurred in picture upload";
+                if (move_uploaded_file($_FILES['e_pic']['tmp_name'], $e_picDist)) {
+                    $testp = 'changed';
+                } else {
+                    $testp = 'Error occurred in picture upload';
                 }
-            }else{
-                $testp = "Invalid picture format";
+            } else {
+                $testp = 'Invalid picture format';
             }
         }
 
-
         // ................................................
 
-        if($testp == "default" || $testv == "default" || $testp == "changed" || $testv == "changed") {
+        if ($testp == 'default' || $testv == 'default' || $testp == 'changed' || $testv == 'changed') {
             $sql = "UPDATE events SET e_title='$e_title', e_msg='$e_msg', e_date='$e_date', e_loc='$e_loc', e_vid='$e_vid', e_pic='$e_pic' WHERE e_id=$id";
             $query = mysqli_query($conn, $sql);
 
-            if($query) {
-                echo "success";
-            }else{
-                echo "Error Occured";
+            if ($query) {
+                echo 'success';
+            } else {
+                echo 'Error Occured';
             }
-        }else{
+        } else {
             echo $testv;
             echo $testp;
         }
-
     }
-    
-    if($_GET['func'] == "eventDel") {
+
+    if ($_GET['func'] == 'eventDel') {
         $id = $_GET['func2'];
         $sql = "DELETE FROM events WHERE e_id=$id";
 
-        if(mysqli_query($conn, $sql)) {
-            echo "success";
-        }else{
-            echo "Error occured";
+        if (mysqli_query($conn, $sql)) {
+            echo 'success';
+        } else {
+            echo 'Error occured';
         }
     }
 
-
     // Logining System
 
-    if($_GET['func'] == 'login') {
+    if ($_GET['func'] == 'login') {
         $user_n = mysqli_real_escape_string($conn, $_POST['user_n']);
         $pass_n = mysqli_real_escape_string($conn, $_POST['pass_n']);
 
-        if(empty($user_n) && empty($pass_n)) {
-            echo "All fields are empty";
-        }elseif(empty($user_n) || empty($pass_n)) {
-            if(empty($user_n)) {
-                echo "Username field is empty";
-            }else{
-                echo "Password field is empty";
+        if (empty($user_n) && empty($pass_n)) {
+            echo 'All fields are empty';
+        } elseif (empty($user_n) || empty($pass_n)) {
+            if (empty($user_n)) {
+                echo 'Username field is empty';
+            } else {
+                echo 'Password field is empty';
             }
-        }else{
+        } else {
             $sql = "SELECT * FROM admin WHERE a_usern='$user_n'";
             $query = mysqli_query($conn, $sql);
 
-            if(mysqli_fetch_array($query) > 0) {
+            if (mysqli_fetch_array($query) > 0) {
                 $sql = "SELECT * FROM admin WHERE a_usern='$user_n' AND a_password='$pass_n'";
                 $query = mysqli_query($conn, $sql);
                 $admin = mysqli_fetch_array($query);
 
-                if($admin > 0) {
+                if ($admin > 0) {
                     session_start();
                     $_SESSION['admin'] = $admin;
 
-                    echo "success";
-                }else{
-                    echo "Password incorrect";
+                    echo 'success';
+                } else {
+                    echo 'Password incorrect';
                 }
-            }else{
-                echo "Username does not exist";
+            } else {
+                echo 'Username does not exist';
             }
-
         }
     }
 
-    if($_GET['func'] == 'logout') {
+    if ($_GET['func'] == 'logout') {
         session_start();
         session_unset();
         session_destroy();
@@ -722,15 +687,13 @@ if(isset($_GET['func'])){
         echo "<script>window.location = '../index.php'</script>";
     }
 
-        
-    if($_GET['func'] == "e") {
+    if ($_GET['func'] == 'e') {
         eventsUpForm($_GET['func2']);
-
     }
-    if($_GET['func'] == "t") {
+    if ($_GET['func'] == 't') {
         testiUpForm($_GET['func2']);
     }
-    if($_GET['func'] == "s") {
+    if ($_GET['func'] == 's') {
         sermonUpForm($_GET['func2']);
     }
 }

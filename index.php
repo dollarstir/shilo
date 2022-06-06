@@ -7,7 +7,7 @@ include 'serv/cmd.php';
   
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>PENSA - UCC</title>
+    <title>Shilo Maranatha Prayer Camp- HOME</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -107,7 +107,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
         <center><p>
             Members who pledged during this semester's mega offering
              are encourage to redeem their pledges. 
-                    Payment can be made to the <br>Mobile Money number (055 725 4877)<br> with Mobile Money name PENSA UCC
+                    Payment can be made to the <br>Mobile Money number (055 725 4877)<br> with Mobile Money name Shilo Maranatha Prayer CampUCC
       </p>
       </center>
       <center><div style="background: lightgreen;" class="clsAnnouncer btn">Close</div></center>
@@ -158,7 +158,50 @@ The Reading Week is a university-wide programme aimed at inculcating in students
     <div class="slide-one-item home-slider owl-carousel">
       <!--Slider Division-->
 
-      <div class="site-blocks-cover" style="background-image: url(images/executives.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/1.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <!--<h1>The <strong>Truth</strong> Will Set You Free</h1>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/2.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <!--<h1>The <strong>Truth</strong> Will Set You Free</h1>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/3.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <!--<h1>The <strong>Truth</strong> Will Set You Free</h1>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/5.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <!--<h1>The <strong>Truth</strong> Will Set You Free</h1>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/4.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -270,8 +313,8 @@ The Reading Week is a university-wide programme aimed at inculcating in students
           </div>
         </div>
 
-        <div class="row griduni">
-          <!-- <div style="background: blue;padding: 10px;" class=""> -->
+        <!-- <div class="row griduni">
+          
             <div>
               <img style="width: 100%; height: 100%" src="images/announce.jpeg">
               <div>
@@ -303,15 +346,15 @@ The Reading Week is a university-wide programme aimed at inculcating in students
               </div>
             </div>
           
-          <!-- </div> -->
+          
 
-        </div>
+        </div> -->
 
       </div>
     </div>
 
     <!--Containers for the service of the church-->
-    <div class="site-section site-block-feature bg-light">
+    <!-- <div class="site-section site-block-feature bg-light">
       <div class="container">
         <div class="d-block d-md-flex ">
           <div class="text-center p-4 item border-right size_fix">
@@ -332,7 +375,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
 
         </div>
       </div>
-    </div>
+    </div> -->
     <style>
         .size_fix {
             height: 500px !important;
