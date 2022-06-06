@@ -17,9 +17,9 @@
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="sermons.php">Sermons</a></li>
-                      <li><a href="beliefs.php">Beliefs</a></li>
+                      <!-- <li><a href="beliefs.php">Beliefs</a></li> -->
                       <li><a href="events.php">Events</a></li>
-                      <li><a href="wing.php">Wings</a></li>
+                      <!-- <li><a href="wing.php">Wings</a></li> -->
                       <li><a href="lead.php">Leaders</a></li>
                       <li><a href="about.php">About Us</a></li>
                       <li><a href="contact.php">Contact</a></li>
