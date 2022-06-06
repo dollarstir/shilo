@@ -110,7 +110,7 @@
             <p class="mb-4"></p>
           </div>
           <div class="col-md-8 col-lg-4 mr-auto order-2">
-            <img src="images/pastor.jpg" alt="Image" class="img-fluid">
+            <img src="images/co.png" alt="Image" class="img-fluid">
           </div>
         </div>
       </div>
