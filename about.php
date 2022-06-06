@@ -256,15 +256,7 @@
             });
     </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="3aa9fe3861f51a6d3a44c1c5-text/javascript"></script>
-<script type="3aa9fe3861f51a6d3a44c1c5-text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-23581568-13');
-</script>
+   
 
   <script src="js/rocket-loader.min.js" data-cf-settings="3aa9fe3861f51a6d3a44c1c5-|49" defer=""></script></body>
 

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'serv/cmd.php';
 
 ?>
@@ -150,7 +150,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
         <div class="site-mobile-menu-body"></div>
       </div> <!-- .site-mobile-menu -->
       
-      <?php include "serv/header.php"?>
+      <?php include 'serv/header.php'; ?>
 
   
     <div style="height: 113px;"></div>
@@ -202,7 +202,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
         <!--Quote and Audio Sermons-->
         <div class="row">
 
-          <?php rec_sermons();?>
+          <?php rec_sermons(); ?>
 
         </div>
         <!--Quote and Audio Sermons-->
@@ -221,7 +221,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
 
         <div class="row">
 
-          <?php upcomingEvents(3)?>
+          <?php upcomingEvents(3); ?>
 
         </div>
 
@@ -351,7 +351,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
 
         <div class="row">
 
-          <?php events(5, "")?>
+          <?php events(5, ''); ?>
           <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="media-with-text">
               <div class="" style="width: 300px; heigth: 300px;margin-bottom: 30px;">
@@ -377,7 +377,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
     </div>
     
     
-    <?php include "serv/footer.php";?>
+    <?php include 'serv/footer.php'; ?>
 
   </div>
 
@@ -423,15 +423,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
             });
     </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="bb251de13db979cd3ae520fb-text/javascript"></script>
-<script type="bb251de13db979cd3ae520fb-text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
-</script>
 
 
   <script src="js/rocket-loader.min.js" data-cf-settings="bb251de13db979cd3ae520fb-|49" defer=""></script></body>

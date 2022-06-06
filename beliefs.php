@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-include "serv/cmd.php";
+include 'serv/cmd.php';
 
 ?>
 
@@ -8,7 +8,7 @@ include "serv/cmd.php";
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Beliefs - PENSA</title>
+    <title>Beliefs - Shilo Maranatha Prayer Camp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -49,7 +49,7 @@ include "serv/cmd.php";
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
     
-    <?php include "serv/header.php"?>
+    <?php include 'serv/header.php'; ?>
     
   
     <div style="height: 80px;"></div>
@@ -174,7 +174,7 @@ include "serv/cmd.php";
         <div class="nonloop-block-14 owl-carousel">
           
           <!--Testimonies of the church_begin-->
-          <?php testimonies()?>
+          <?php testimonies(); ?>
           <!-- <div class="p-4">
             <div class="d-flex block-testimony">
               <div class="person mr-3">
@@ -227,7 +227,7 @@ include "serv/cmd.php";
       
     </div>
 
-    <?php include "serv/footer.php"?>
+    <?php include 'serv/footer.php'; ?>
   </div>
 
   <script src="js/jquery-3.3.1.min.js" type="6978acaec81577dd0f04d893-text/javascript"></script>
@@ -270,15 +270,6 @@ include "serv/cmd.php";
             });
     </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="6978acaec81577dd0f04d893-text/javascript"></script>
-<script type="6978acaec81577dd0f04d893-text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-23581568-13');
-</script>
 
 
   <script src="js/rocket-loader.min.js" data-cf-settings="6978acaec81577dd0f04d893-|49" defer=""></script></body>

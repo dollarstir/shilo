@@ -3,7 +3,7 @@
   
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Contact &mdash; PENSA UCC</title>
+    <title>Contact &mdash; Shilo Maranatha Prayer Camp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -47,7 +47,7 @@
     </div> <!-- .site-mobile-menu -->
     
     
-    <?php include "serv/header.php"?>
+    <?php include 'serv/header.php'; ?>
   
     <div style="height: 113px;"></div>
       <div class="slide-one-item home-slider owl-carousel">
@@ -141,13 +141,13 @@
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Contact Info</h3>
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">University Of Cape Coast <br> Amamoma - Palace Road</p>
+              <p class="mb-4">IX/16 Sakumono near Jubail Hospital <br> Accra</p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">(233) 27 929 8957</a></p>
+              <p class="mb-4"><a href="#">(233) 243126998</a></p>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#"><span >pensaucc2@gmail.com</span></a></p>
+              <p class="mb-0"><a href="#"><span >shilohmaranathaministry@gmail.com</span></a></p>
 
             </div>
           
@@ -156,7 +156,7 @@
       </div>
     </div>
  
-    <?php include "serv/footer.php"?>
+    <?php include 'serv/footer.php'; ?>
   </div>
 
   <script src="js/jquery-3.3.1.min.js" type="4a11f3698e85394d7b571642-text/javascript"></script>
@@ -202,14 +202,7 @@
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="4a11f3698e85394d7b571642-text/javascript"></script>
-<script type="4a11f3698e85394d7b571642-text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
-</script>
 
 
   <script src="js/rocket-loader.min.js" data-cf-settings="4a11f3698e85394d7b571642-|49" defer=""></script>
