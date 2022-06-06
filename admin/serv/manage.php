@@ -1,12 +1,12 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+$conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
 // Functions For Tables
 
 function testi()
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = 'SELECT * FROM testimonies ORDER BY t_id DESC';
     $query = mysqli_query($conn, $sql);
@@ -28,7 +28,7 @@ function testi()
 
 function serms()
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = 'SELECT * FROM sermons ORDER BY s_id DESC';
     $query = mysqli_query($conn, $sql);
@@ -52,7 +52,7 @@ function serms()
 
 function evens()
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = 'SELECT * FROM events ORDER BY e_id DESC';
     $query = mysqli_query($conn, $sql);
@@ -77,7 +77,7 @@ function evens()
 
 function comms()
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = 'SELECT * FROM comments ORDER BY c_id DESC';
     $query = mysqli_query($conn, $sql);
@@ -97,7 +97,7 @@ function comms()
 
 function num($opt)
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     if ($opt == 't') {
         $sql = 'SELECT t_id FROM testimonies';
@@ -121,7 +121,7 @@ function num($opt)
 
 function testiUpForm($id)
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = "SELECT * FROM testimonies WHERE t_id=$id";
     $query = mysqli_query($conn, $sql);
@@ -166,7 +166,7 @@ function testiUpForm($id)
 
 function sermonUpForm($id)
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = "SELECT * FROM sermons WHERE s_id=$id";
     $query = mysqli_query($conn, $sql);
@@ -240,7 +240,7 @@ function sermonUpForm($id)
 
 function eventsUpForm($id)
 {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     $sql = "SELECT * FROM events WHERE e_id=$id";
     $query = mysqli_query($conn, $sql);
@@ -297,7 +297,7 @@ function eventsUpForm($id)
 
 // Functions for Form //
 if (isset($_GET['func'])) {
-    $conn = mysqli_connect('localhost', 'quadwo', 'Derrick2019', 'quadwo_pensa');
+    $conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
 
     if ($_GET['func'] == 'testimony') {
         $t_author = mysqli_real_escape_string($conn, $_POST['t_author']);

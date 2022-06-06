@@ -1,3 +1,3 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'shilo') or die('Database Connection lost');
+$conn = mysqli_connect('localhost', 'tucevmlk_shilo', 'Teamwork@2019', 'tucevmlk_shilo') or die('Database Connection lost');
