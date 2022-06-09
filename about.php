@@ -119,8 +119,14 @@ Services are marked as truly Pentecostal with praise and worship, teaching, exer
             <h3 class="h3 mb-3">Holiness of members and officers    </h3>
             <p class="h5 mb-3">The Church upholds holiness of members unto the Lord in all their endeavors (Rom. 12:1; Heb. 12:14). </p>
 
-            <h3 class="h3 mb-3">The Bible</h3>
-            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+            <h3 class="h3 mb-3">Consistent Bible Teaching – (Acts 2:42a).</h3>
+            <p class="h5 mb-3">The Church upholds the teaching of sound biblical doctrine and does not tolerate the propagation of wrong/false doctrine. All types of prayer such as thanksgiving; worship (adoration); supplication; intercession (Eph. 6:18-19; 1 Tim. 2:1-2). Church Discipline - (2Tim. 3:16-17; Heb. 12:7-11)
+            <ol>
+              <li>Respect for and obedience to authority.</li>
+              <li>Submission to corrective measures and policies of the Church.</li>
+              <li>Regular fellowship of the saints – (Acts 2:42-47; Heb. 10:25).</li>
+            </ol>    
+          </p>
 
             <h3 class="h3 mb-3">The Bible</h3>
             <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
