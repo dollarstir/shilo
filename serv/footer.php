@@ -37,11 +37,11 @@
           <div class="col-md-4">
             <h3 class="footer-heading mb-4 text-white">Related Links</h3>
               <ul class="list-unstyled">
-                <!-- <li><a href="https://thecophq.org">Church of Pentecost</a></li>
-                <li><a href="https://penteagle.org">Youth Ministry</a></li>
-                <li><a href="https://pensainternational.org">PENSA International</a></li>
-                <li><a href="https://pensagh.org">PENSA Ghana</a></li>
-                <li><a href="#">PENSA Cape Coast Sector</a></li> -->
+                <li><a href="index.php">Home</a></li>
+                <li><a href="sermons.php">Sermons</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
               </ul>
           </div>
 
