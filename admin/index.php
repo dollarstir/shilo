@@ -1,8 +1,8 @@
-<?php 
+<?php
     session_start();
-    include "serv/manage.php";
+    include 'serv/manage.php';
 
-    if(isset($_SESSION['admin'])) {
+    if (isset($_SESSION['admin'])) {
         echo '<script>window.location = "index_page.php"</script>';
     }
 ?>
@@ -18,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>PENSA Admin</title>
+    <title>SHILOH Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
     />
     <meta name="description" content="ArchitectUI HTML Bootstrap 4 Dashboard Template">
@@ -50,7 +50,7 @@
                                     <div class="position-relative h-100 d-flex justify-content-center align-items-center bg-plum-plate" tabindex="-1">
                                         <div class="slide-img-bg" style="background-image: url('assets/images/originals/city.jpg');"></div>
                                         <div class="slider-content">
-                                            <h3>PENSA - Admin Login</h3>
+                                            <h3>SHILOH - Admin Login</h3>
                                         </div>
                                     </div>
                                 </div>
