@@ -128,14 +128,14 @@ Services are marked as truly Pentecostal with praise and worship, teaching, exer
             </ol>    
           </p>
 
-            <h3 class="h3 mb-3">The Bible</h3>
+            <!-- <h3 class="h3 mb-3">The Bible</h3>
             <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
 
             <h3 class="h3 mb-3">The Bible</h3>
             <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
 
             <h3 class="h3 mb-3">The Bible</h3>
-            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p> -->
           </div>
         </div> 
       </div>
