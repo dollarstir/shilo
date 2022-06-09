@@ -201,7 +201,7 @@ The Reading Week is a university-wide programme aimed at inculcating in students
 
 
 
-      <div class="site-blocks-cover" style="background-image: url(assets/shil/4.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+      <div class="site-blocks-cover" style="background-image: url(assets/shil/4.JPG);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
