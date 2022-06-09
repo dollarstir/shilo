@@ -75,7 +75,7 @@ The Prayer Camp is currently broading its horizon with branches spread across Gr
 
 <h2 class="h2 mb-3">OUR CORE VALUES</h2>
 <h3 class="h3 mb-3">The Bible</h3>
-            <p class="h5 mb-3">The Shiloh Maranatha Prayer Camp was founded by Prophetess Gifty Anane and her wonderful and supportive husband Evangelist Richard Anane over 20 years ago in response to the calling and direction of God upon their lives. IN spite of her lack of education, her passion for God was enormous. Gifty’s simple faith in God and obedient to Him resulted in God using her as a corner stone. Responding to the vision and revelations of God upon their lives, Gifty started work in Accra sakumono estate in a good Samaritan’s home. There, the Lord spoke and asked her to go and acquire a land in the Central part of Ghana (Gomoa.) Gifty and her husband Richard channeled their earnings with the help of the church and some few individuals helped to acquire acres of unwanted land and several years later, the vision of God became a reality as they established a prayer camp at Gomoa Dawurampong-Nduam with free accommodation facilities for all who come to seek and wait upon the Lord. </p>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
           </div>
         </div> 
       </div>
