@@ -82,6 +82,54 @@ The Prayer Camp is currently broading its horizon with branches spread across Gr
             <p class="h5 mb-3">It is the presentation of Jesus Christ in the power of the Holy Spirit with the view that people will trust Jesus as Savior and Lord and serve him in the fellowship of the Church.  Evangelism is the responsibility of every Church member and Minister. It is the prime duty of every believer to share his/her faith after conversion.
 Through cross-cultural, mission-oriented evangelism, Church members who travel to other countries preach Christ, plant Churches and call for Ministers to pastor.  
 </p>
+
+
+
+
+<h3 class="h3 mb-3">Ministry of the Holy Spirit</h3>
+            <p class="h5 mb-3">We believe in the presence of the person of the Holy Spirit and that the Christian life can be led only by His enablement.  The new birth is the work of the Holy Spirit, and then the baptism of the Holy Spirit for power to serve and the gifts of the Spirit for building the body of Christ.
+The Holy Spirit helps the individual to develop a Christ-like character, manifested through bearing the fruit of the Spirit.
+The leading of the Holy Spirit in all spheres of activity in the Church is paramount.  Administrative structures and all other Church distinctiveness have been largely influenced by the leading of the Holy Spirit.  
+ </p>
+
+
+            <h3 class="h3 mb-3">
+Ministry Excellence</h3>
+            <p class="h5 mb-3">We seek to honor God who gave His best (Christ Jesus as the Savior) by maintaining a high standard of excellence in all our ministries and activities (Col. 3:23-24).
+
+  </p>
+
+
+            <h3 class="h3 mb-3">Prayer </h3>
+            <p class="h5 mb-3">Some of the normal practices are regular prayer for the Holy Spirit baptism with the initial evidence of speaking in tongues.  Emphasis is placed on the fruit and gifts of the Spirit in the life of the believer.
+Prayers are said for healing and deliverance of the afflicted as part of the initial exercises for salvation.
+Services are marked as truly Pentecostal with praise and worship, teaching, exercise of gifts, prayer, testimonies, etc.
+</p>
+            <h3 class="h3 mb-3">Leadership</h3>
+            <p class="h5 mb-3">Leadership development is based on the apostolic foundation. Appointments and callings into leadership positions are based on character, charisma, and the leading of the Holy Spirit. Leadership development is from the grassroots level with members maturing to lead sub-groups, Ministries, Assemblies, Districts and Areas. Team spirit, with talent development, shapes team work</p>
+
+            <h3 class="h3 mb-3">Tithes and Offering</h3>
+            <p class="h5 mb-3">Faithfulness in giving offerings and paying tithes to enhance the ministry of the Church is emphasized. Periodic teaching on this subject is regarded as very important. The Church and members depend solely on God as the source of financial supply. Borrowing by the Church is not encouraged.  Lending with interest among members is also discouraged. </p>
+
+            <h3 class="h3 mb-3">Social Activities</h3>
+            <p class="h5 mb-3">The Church believes in communal living with members supporting one another, and participating in communal work. The Church may also help the wider community by providing social needs such as health services, education, as well as donating to the needy in society.
+
+</p>
+
+            <h3 class="h3 mb-3">Holiness of members and officers    </h3>
+            <p class="h5 mb-3">The Church upholds holiness of members unto the Lord in all their endeavors (Rom. 12:1; Heb. 12:14). </p>
+
+            <h3 class="h3 mb-3">The Bible</h3>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+
+            <h3 class="h3 mb-3">The Bible</h3>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+
+            <h3 class="h3 mb-3">The Bible</h3>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+
+            <h3 class="h3 mb-3">The Bible</h3>
+            <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
           </div>
         </div> 
       </div>
