@@ -76,6 +76,12 @@ The Prayer Camp is currently broading its horizon with branches spread across Gr
 <h2 class="h2 mb-3">OUR CORE VALUES</h2>
 <h3 class="h3 mb-3">The Bible</h3>
             <p class="h5 mb-3">We believe in the bible both the old and the New Testament. We believe all scriptures is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness. </p>
+
+
+            <h3 class="h3 mb-3">Evangelism</h3>
+            <p class="h5 mb-3">It is the presentation of Jesus Christ in the power of the Holy Spirit with the view that people will trust Jesus as Savior and Lord and serve him in the fellowship of the Church.  Evangelism is the responsibility of every Church member and Minister. It is the prime duty of every believer to share his/her faith after conversion.
+Through cross-cultural, mission-oriented evangelism, Church members who travel to other countries preach Christ, plant Churches and call for Ministers to pastor.  
+</p>
           </div>
         </div> 
       </div>
