@@ -66,7 +66,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div style="text-align: left">
-            <h2 class="h2 mb-3"></h2>
+            <h2 class="h2 mb-3">BACKGROUND OF THE CHURCH</h2>
             <p class="h5 mb-3">The Shiloh Maranatha Prayer Camp was founded by Prophetess Gifty Anane and her wonderful and supportive husband Evangelist Richard Anane over 20 years ago in response to the calling and direction of God upon their lives. IN spite of her lack of education, her passion for God was enormous. Gifty’s simple faith in God and obedient to Him resulted in God using her as a corner stone. Responding to the vision and revelations of God upon their lives, Gifty started work in Accra sakumono estate in a good Samaritan’s home. There, the Lord spoke and asked her to go and acquire a land in the Central part of Ghana (Gomoa.) Gifty and her husband Richard channeled their earnings with the help of the church and some few individuals helped to acquire acres of unwanted land and several years later, the vision of God became a reality as they established a prayer camp at Gomoa Dawurampong-Nduam with free accommodation facilities for all who come to seek and wait upon the Lord. </p>
             <p class="mb-4"></p>
           </div>
@@ -116,103 +116,7 @@
       </div>
     </div>
 
-    <!-- <div class="site-section site-block-feature bg-light">
-      <div class="container">
-        <div class="d-block d-md-flex border-bottom">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-paper-plane display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Our Mission</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Testimonies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-        <div class="d-block d-md-flex">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-speaker display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Listen To Our Sermons</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-avatar display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Join Our Church</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-<!--
-    <div class="site-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-6" data-aos="fade" >
-            <h2>Frequently Ask Questions</h2>
-          </div>
-        </div>
-        
-
-        <div class="row justify-content-center" data-aos="fade" data-aos-delay="100">
-          <div class="col-md-8">
-            <div class="accordion unit-8" id="accordion">
-            <div class="accordion-item">
-              <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">What is your beliefs?<span class="icon"></span></a>
-              </h3>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="body-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae cumque perspiciatis aperiam accusantium facilis provident aspernatur nisi optio debitis dolorum, est eum eligendi vero aut ad necessitatibus nulla sit labore doloremque magnam! Ex molestiae, dolor tempora, ad fuga minima enim mollitia consequuntur, necessitatibus praesentium eligendi officia recusandae culpa tempore eaque quasi ullam magnam modi quidem in amet. Quod debitis error placeat, tempore quasi aliquid eaque vel facilis culpa voluptate.</p>
-                </div>
-              </div>
-            </div> <!-- .accordion-item 
-            
-            <div class="accordion-item">
-              <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">Do I need to know the truth?<span class="icon"></span></a>
-              </h3>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="body-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad laborum expedita. Nostrum iure atque enim quisquam minima distinctio omnis, consequatur aliquam suscipit, quidem, esse aspernatur! Libero, excepturi animi repellendus porro impedit nihil in doloremque a quaerat enim voluptatum, perspiciatis, quas dignissimos maxime ut cum reiciendis eius dolorum voluptatem aliquam!</p>
-                </div>
-              </div>
-            </div> <!-- .accordion-item 
-
-            <div class="accordion-item">
-              <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">Be save and be baptise?<span class="icon"></span></a>
-              </h3>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="body-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad laborum expedita. Nostrum iure atque enim quisquam minima distinctio omnis, consequatur aliquam suscipit, quidem, esse aspernatur! Libero, excepturi animi repellendus porro impedit nihil in doloremque a quaerat enim voluptatum, perspiciatis, quas dignissimos maxime ut cum reiciendis eius dolorum voluptatem aliquam!</p>
-                </div>
-              </div>
-            </div> <!-- .accordion-item 
-
-            <div class="accordion-item">
-              <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">Where to Start?<span class="icon"></span></a>
-              </h3>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="body-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad laborum expedita. Nostrum iure atque enim quisquam minima distinctio omnis, consequatur aliquam suscipit, quidem, esse aspernatur! Libero, excepturi animi repellendus porro impedit nihil in doloremque a quaerat enim voluptatum, perspiciatis, quas dignissimos maxime ut cum reiciendis eius dolorum voluptatem aliquam!</p>
-                </div>
-              </div>
-            </div> <!-- .accordion-item 
-
-          </div>
-          </div>
-        </div>
-      
-      </div>
-    </div>
--->
+    
     
     
     <?php include 'serv/footer.php'; ?>
