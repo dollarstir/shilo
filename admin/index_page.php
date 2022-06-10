@@ -3,12 +3,11 @@
     session_start();
     include 'serv/manage.php';
 
-    if(isset($_SESSION['admin'])) {
+    if (isset($_SESSION['admin'])) {
         $admin = $_SESSION['admin'];
-
-    }else{
+    } else {
         echo "<script>window.location='index.php';</script>";
-    };
+    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -36,7 +35,7 @@
         <script src="js/form.js"></script>
     
 
-        <title>Welcome <?php echo $admin['fname'];?></title>
+        <title>Welcome <?php echo $admin['fname']; ?></title>
     </head>
     <body>
     <style>
@@ -52,7 +51,7 @@
         <div class="app-container app-theme-white body-tabs-shadow fixed-header fixed-sidebar">
             <div class="app-header header-shadow">
                 <div class="app-header__logo">
-                    <!-- <div style="color: black;font-weight: 700;">Admin Dashboard _ PENSA</div> -->
+                    <!-- <div style="color: black;font-weight: 700;">Admin Dashboard _ SHILOH</div> -->
                     <div class="header__pane ml-auto">
                         <div>
                             <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -64,7 +63,7 @@
                     </div>
                 </div>
 
-                <div style="color: black;font-weight: 700;">Admin Dashboard _ PENSA</div>
+                <div style="color: black;font-weight: 700;">Admin Dashboard _ SHILOH</div>
 
                 <div class="app-header__mobile-menu">
                     <div>
@@ -112,7 +111,7 @@
                                                                             alt="">
                                                                     </div>
                                                                     <div class="widget-content-left">
-                                                                        <div class="widget-heading"><?php echo $admin['fname'].' '.$admin['lname'];                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ?>
+                                                                        <div class="widget-heading"><?php echo $admin['fname'].' '.$admin['lname']; ?>
                                                                         </div>
                                                                         <div class="widget-subheading opacity-8">A short profile description
                                                                         </div>
@@ -132,7 +131,7 @@
                                     </div>
                                     <div class="widget-content-left  ml-3 header-user-info">
                                         <div class="widget-heading">
-                                            <?php echo $admin['fname'].' '.$admin['lname']?>
+                                            <?php echo $admin['fname'].' '.$admin['lname']; ?>
                                         </div>
                                         <div class="widget-subheading">
                                             Admin
@@ -289,7 +288,7 @@
                             <div class="widget-title">Testimonies</div>
                         </div>
                         <div class="widget-chart-flex">
-                            <div class="widget-numbers"><span><?php num("t");?></span></div>
+                            <div class="widget-numbers"><span><?php num('t'); ?></span></div>
                         </div>
                     </div>
                 </div>
@@ -301,7 +300,7 @@
                             <div class="widget-title">Sermons</div>
                         </div>
                         <div class="widget-chart-flex">
-                            <div class="widget-numbers"><span><?php num("s");?></span></div>
+                            <div class="widget-numbers"><span><?php num('s'); ?></span></div>
                         </div>
                     </div>
                 </div>
@@ -313,7 +312,7 @@
                             <div class="widget-title">Events</div>
                         </div>
                         <div class="widget-chart-flex">
-                            <div class="widget-numbers"><span><?php num("e");?></span></div>
+                            <div class="widget-numbers"><span><?php num('e'); ?></span></div>
                         </div>
                     </div>
                 </div>
@@ -325,7 +324,7 @@
                             <div class="widget-title">Comments</div>
                         </div>
                         <div class="widget-chart-flex">
-                            <div class="widget-numbers"><span><?php num("c");?></span></div>
+                            <div class="widget-numbers"><span><?php num('c'); ?></span></div>
 
                         </div>
                     </div>
@@ -359,19 +358,19 @@
                                                             <li class="nav-item-header nav-item">Overview</li>
                                                             <li class="nav-item"><a style="width: 200px" class="data_d nav-link"><i class="nav-link-icon fa fa-hand-point-right"> 
                                                                 </i><span>Testimonies</span>
-                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num("t");?></div>
+                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num('t'); ?></div>
                                                             </a></li>
                                                             <li class="nav-item"><a style="width: 200px" class="data_d nav-link"><i class="nav-link-icon fa fa-hand-point-right"> 
                                                                 </i><span>Sermons</span>
-                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num("s");?></div>
+                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num('s'); ?></div>
                                                             </a></li>
                                                             <li class="nav-item"><a style="width: 200px" class="data_d nav-link"><i class="nav-link-icon fa fa-hand-point-right"> 
                                                                 </i><span>Events</span>
-                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num("e");?></div>
+                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num('e'); ?></div>
                                                             </a></li>
                                                             <li class="nav-item"><a style="width: 200px" class="data_c nav-link"><i class="nav-link-icon fa fa-hand-point-right"> 
                                                                 </i><span>Comments</span>
-                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num("c");?></div>
+                                                                <div style="position: absolute;right: 0;" class="ml-lg badge badge-pill"><?php num('c'); ?></div>
                                                             </a></li>
                                                             <!-- <li class="nav-item"><a class="nav-link"><i class="nav-link-icon  fa fa-hand-point-right"> </i><span>Companies</span></a></li>
                                                             <li class="nav-item"><a class="nav-link"><i class="nav-link-icon  fa fa-hand-point-right"> </i><span>Dashboards</span></a></li> -->
