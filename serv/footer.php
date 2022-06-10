@@ -66,7 +66,7 @@
                 <h3 class="footer-heading mb-4 text-white">Social Media</h3>
                 <a href="https://facebook.com/" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
                   <a href="https://twitter.com/" class="p-2"><span class="icon-twitter"></span></a>
-                  <a href="https://intagram.com/" class="p-2"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/shilohmaranathaprayercamp/" class="p-2"><span class="icon-instagram"></span></a>
               </div>
             </div>
           </div>
