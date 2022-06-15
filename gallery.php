@@ -38,7 +38,7 @@ include 'serv/cmd.php';
     <link rel="stylesheet" href="custom.css">
 
     <style>
-div.gallery {
+/* div.gallery {
   border: 1px solid #ccc;
 }
 
@@ -83,7 +83,7 @@ div.desc {
   content: "";
   display: table;
   clear: both;
-}
+} */
 </style>
     
   </head>
