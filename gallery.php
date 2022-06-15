@@ -129,7 +129,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/1.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/1.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -141,7 +141,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/13.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/13.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -153,7 +153,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/12.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/12.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -164,7 +164,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/11.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/11.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -175,7 +175,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/10.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/10.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -186,7 +186,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/9.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/9.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -197,7 +197,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/8.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/8.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -208,7 +208,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/7.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/7.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -219,7 +219,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/6.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/6.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -230,7 +230,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/5.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/5.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -241,7 +241,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/4.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/4.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -252,7 +252,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/3.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/3.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -263,7 +263,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/2.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/2.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -274,7 +274,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/14.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/14.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -285,7 +285,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/15.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/15.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -296,7 +296,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/16.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/16.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -307,7 +307,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/17.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/17.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -318,7 +318,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/18.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/18.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -329,7 +329,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/19.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/19.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -340,7 +340,7 @@ div.desc {
       <div>
 
         <div class="w3-card-4 w3-light-gray" style="width:100%!important;height:80%;">
-        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/20.jpg" alt="Avatar">
+        <img loading="lazy" style="margin-top: 5px;width:100%!important;height:100%!important;border-radius:0px!important;" src="assets/shil/20.JPG" alt="Avatar">
           <div class="w3-container w3-center">
           
           </div>
@@ -371,7 +371,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>SECRETARY</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/sec.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/sec.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Apaah Bamfo Rendolf</b></h4>
               <p>B.Com. Human Resourse Management</p>
               <p><span>027 929 8957</span> | <span>rendapaah@gmail.com</span></p>
@@ -386,7 +386,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>TREASURER</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/tresurer.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/tresurer.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Darko Princilla Baah</b></h4>
               <p>B.Com. Accounting</p>
               <p><span>054 357 6917</span> | <span>princilladarko75@gmail.com</span></p>
@@ -401,7 +401,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>FINANCIAL SECRETARY</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/fin_sec.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/fin_sec.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Ruben Yaw Bekialoge</b></h4>
               <p>B.Com. Management</p>
               <p><span>054 755 7293</span> | <span>rubenyaw63@gmail.com</span></p>
@@ -416,7 +416,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>EXECUTIVE MEMBER</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/exe_mem.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/exe_mem.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Prince Obiri Yeboah</b></h4>
               <p>B.Sc. Health Information Management</p>
               <p><span>054 753 5571</span> | <span>obiriyeboahprince441@gmail.com</span></p>
@@ -430,7 +430,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>EVANGELISM SECRETARY</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/eva_sec.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/eva_sec.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Dcn. Shadrack Atsu Alato</b></h4>
               <p>B.Ed. Art</p>
               <p><span>024 476 5396</span> | <span>alatoshadrack@gmail.com</span></p>
@@ -444,7 +444,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>BIBLY STUDY AND LIT. COORDINATOR</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/bible.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/bible.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Oscar Awini Teneye</b></h4>
               <p>B.Ed. Science</p>
               <p><span>054 206 3357</span> | <span>awinioscar4@gmail.com</span></p>
@@ -458,7 +458,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>ORGANIZING SECRETARY</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/org_sec.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/org_sec.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Ebenezer Nyarko</b></h4>
               <p>B.Com. Accounting</p>
               <p><span>055 522 1573</span> | <span>icekid260@gmail.com</span></p>
@@ -472,7 +472,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>PRAYER SECRETARY</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/prayer_sec.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/prayer_sec.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Eld. Dennis Odei Asimeng</b></h4>
               <p>B.Ed. Social Studies</p>
               <p><span>055 447 7756</span> | <span>odeiasimeng@gmail.com</span></p>
@@ -486,7 +486,7 @@ div.desc {
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>FOUNTAIN OF JOY COORDINATOR</b></h3>
-              <img loading="lazy" style="margin-top: 5px" src="images/foj_cor.jpg" alt="Avatar">
+              <img loading="lazy" style="margin-top: 5px" src="images/foj_cor.JPG" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Eld. Daniel Frimpong Martey</b></h4>
               <p>B.Sc. Agribusiness</p>
               <p><span>054 364 4929</span> | <span><br>danielmarteyfrimpongucc@gmail.com</span></p>
