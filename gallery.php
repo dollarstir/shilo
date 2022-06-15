@@ -81,7 +81,7 @@ include 'serv/cmd.php';
 
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
-          <img style="margin-top: 5px" src="images/ceo.png" alt="Avatar">
+          <img  src="images/ceo.png" alt="Avatar">
           </div>
         </div>
 
