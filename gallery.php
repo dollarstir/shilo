@@ -75,7 +75,7 @@ include 'serv/cmd.php';
     <div>
 
     </div>
-    <div class="grid row">
+    <div class="grid row" style="width:100%!important;">
 
       <div>
 
