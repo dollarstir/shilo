@@ -138,21 +138,21 @@ div.desc {
       </div>
 
 
-      <div>
+      <!-- <div>
 
         <div class="w3-card-4 w3-light-gray">
           <div class="w3-container w3-center">
               <h3 style="margin-top: 20px"><b>VICE CHAIRMAN</b></h3>
               <img style="margin-top: 5px" src="images/co.png" alt="Avatar">
               <h4 style="margin-top: 30px"><b>Rev. Richard Anane</b></h4>
-              <!-- <p>B.Ed. Science</p> -->
+              <p>B.Ed. Science</p>
               <p><span>(233) 244136183</span> 
-               <!-- <span>issahnwenbe@gmail.com</span> -->
+               <span>issahnwenbe@gmail.com</span>
               </p>
           </div>
         </div>
 
-      </div>
+      </div> -->
 
 
       <!-- <div>
